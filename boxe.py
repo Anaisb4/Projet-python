@@ -56,6 +56,7 @@ boxeur_1 = Boxer("Boxeur 1", 100, 10, 50, 50)
 boxeur_2 = Boxer("Boxeur 2", 100, 10, 50, 50)
 
 
+
 fight(boxeur_1, boxeur_2)
 
 
