@@ -40,9 +40,10 @@ class Boxer:
 
 def fight(boxer1, boxer2):
         while not boxeur_1.isKo() and not boxeur_2.isKo():
-            boxeur_1.hit(boxeur_2)
-            print(boxeur_1.name + ": " + str(boxeur_1.health) + "pv  /  " + boxeur_2.name + ": " + str(boxeur_2.health) + "pv")
-            sleep(1)
+            if(not boxeur_1.isKo()):
+                boxeur_1.hit(boxeur_2)
+                print(boxeur_1.name + ": " + str(boxeur_1.health) + "pv  /  " + boxeur_2.name + ": " + str(boxeur_2.health) + "pv")
+                sleep(1)
             boxeur_2.hit(boxeur_1)
             print(boxeur_1.name + ": " + str(boxeur_1.health) + "pv  /  " + boxeur_2.name + ": " + str(
                 boxeur_2.health) + "pv")
