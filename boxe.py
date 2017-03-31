@@ -54,7 +54,7 @@ def fight(boxer1, boxer2):
             print(boxeur_2.name+ " gagne le match")
         else :
             print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
-            print(boxeur_1.name + " gagne le match")
+            print(boxeur_1.name + " gagne le match.")
 
 boxeur_1 = Boxer("Boxeur 1", 100, 10, 50, 50)
 boxeur_2 = Boxer("Boxeur 2", 100, 10, 50, 50)
